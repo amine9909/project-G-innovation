@@ -1,0 +1,36 @@
+# Spring Boot / Maven
+backend/target/
+*.log
+
+# Vue / Node
+frontend/node_modules/
+frontend/dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local runtime artifacts
+logs/
+tmp/
+temp/
+
+# Docker / persistent local data
+docker-data/
+volumes/
+postgres-data/
+postgres/
+pgdata/
+minio-data/
+minio/
+data/
